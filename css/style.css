@@ -6,20 +6,25 @@
 
 #navbar {
    width: 10%;
+   height: 100%;
    float: left;
    position: fixed;
+   border-right: 1px solid black;
+   padding-right: 10%;
 }
 
 .nav-link {
    font-size: 0.9em;
-   /* text-decoration: none; */
+   text-decoration: none;
    color: rgb(68, 68, 68);
    line-height: 1.5em;
+   border-bottom: 1px solid black;
 }
 
 #container {
-   padding-left: 20%;
+   padding-left: 25%;
 }
+
 
 @media (max-width:599px) {
    width: 100%;
